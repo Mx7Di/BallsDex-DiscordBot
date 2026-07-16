@@ -36,7 +36,7 @@ artwork_size = [b - a for a, b in zip(*CORNERS)]
 title_font = ImageFont.truetype(str(SOURCES_PATH / "Anton-Regular.ttf"), 170)
 capacity_name_font = ImageFont.truetype(str(SOURCES_PATH / "Bobby Jones Soft.otf"), 110)
 capacity_description_font = ImageFont.truetype(str(SOURCES_PATH / "OpenSans-Semibold.ttf"), 75)
-stats_font = ImageFont.truetype(str(SOURCES_PATH / "Bobby Jones Soft.otf"), 130)
+stats_font = ImageFont.truetype(str(SOURCES_PATH / "Anton-Regular.ttf"), 130)
 credits_font = ImageFont.truetype(str(SOURCES_PATH / "arial.ttf"), 40)
 
 credits_color_cache = {}
